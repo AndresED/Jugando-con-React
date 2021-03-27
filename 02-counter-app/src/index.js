@@ -1,5 +1,5 @@
 import React from 'react';
-import PrimeraApp from './PrimeraApp';
+import CounterApp from './CounterApp';
 import ReactDOM from 'react-dom';
 const divRoot = document.querySelector("#root");
-ReactDOM.render(<PrimeraApp nombre="Goku"/>,divRoot);
+ReactDOM.render(<CounterApp value={123}/>,divRoot);

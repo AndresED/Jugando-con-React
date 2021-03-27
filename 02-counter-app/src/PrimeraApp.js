@@ -1,7 +1,8 @@
 import React from 'react';
 import './index.css';
-const PrimeraApp = ()=>{
-    const nombre = 'Andres Esquivel'
+const PrimeraApp = (props)=>{
+    console.log(props)
+    const {nombre} = props
     return (
     <>
         <h1> Hola mundo {nombre}</h1>

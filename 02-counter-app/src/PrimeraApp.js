@@ -1,7 +1,12 @@
 import React from 'react';
 import './index.css';
 const PrimeraApp = ()=>{
-    const saludo = <h1> Hola mundo 23</h1>;
-    return saludo;
+    const nombre = 'Andres Esquivel'
+    return (
+    <>
+        <h1> Hola mundo {nombre}</h1>
+        <h2> ¿Como estas?</h2>
+    </>
+    );
 }
 export default PrimeraApp;

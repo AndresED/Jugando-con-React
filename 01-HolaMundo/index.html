@@ -17,5 +17,14 @@
         const divRoot = document.querySelector("#root");
         ReactDOM.render(h1Tag,divRoot);
     </script>
+    <script>
+        const useState = (value) =>{
+            return [value,()=>{console.log('Hola mundo')}]
+        }
+        const [nombre2] = useState('Goku');
+        const [,setNombre] = useState('Goku');
+        console.log(nombre2);
+        setNombre();
+    </script>
 </body>
 </html>

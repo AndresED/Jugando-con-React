@@ -14,3 +14,18 @@ exports[`Pruebas sobre PrimeraApp debe de mostrar el mensaje 'Hola, soy Goku' 1`
   </p>
 </Fragment>
 `;
+
+exports[`Pruebas sobre PrimeraApp debe de mostrar el subtitulo enviado por los props 1`] = `
+<Fragment>
+  <h1>
+     Hola, soy 
+    Hola, soy Goku
+  </h1>
+  <h2>
+     ¿Como estas?
+  </h2>
+  <p>
+    Soy un pinche subtitulo
+  </p>
+</Fragment>
+`;

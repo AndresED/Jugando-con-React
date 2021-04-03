@@ -1,5 +1,67 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Pruebas sobre el componente CounterApp Debe de disminuir con el boton -1 1`] = `
+<Fragment>
+  <h1>
+    CounterApp
+  </h1>
+  <h2
+    id="contador"
+  >
+    100
+  </h2>
+  <button
+    id="btnAdd"
+    onClick={[Function]}
+  >
+    +
+  </button>
+  <button
+    id="btnReset"
+    onClick={[Function]}
+  >
+    Reset
+  </button>
+  <button
+    id="btnRemove"
+    onClick={[Function]}
+  >
+    -
+  </button>
+</Fragment>
+`;
+
+exports[`Pruebas sobre el componente CounterApp Debe de disminuir con el boton -1 2`] = `
+<Fragment>
+  <h1>
+    CounterApp
+  </h1>
+  <h2
+    id="contador"
+  >
+    100
+  </h2>
+  <button
+    id="btnAdd"
+    onClick={[Function]}
+  >
+    +
+  </button>
+  <button
+    id="btnReset"
+    onClick={[Function]}
+  >
+    Reset
+  </button>
+  <button
+    id="btnRemove"
+    onClick={[Function]}
+  >
+    -
+  </button>
+</Fragment>
+`;
+
 exports[`Pruebas sobre el componente CounterApp Debe de generar un snatshop y mostrar sus valores por defecto 1`] = `
 <Fragment>
   <h1>
@@ -11,16 +73,50 @@ exports[`Pruebas sobre el componente CounterApp Debe de generar un snatshop y mo
     0
   </h2>
   <button
+    id="btnAdd"
     onClick={[Function]}
   >
     +
   </button>
   <button
+    id="btnReset"
     onClick={[Function]}
   >
     Reset
   </button>
   <button
+    id="btnRemove"
+    onClick={[Function]}
+  >
+    -
+  </button>
+</Fragment>
+`;
+
+exports[`Pruebas sobre el componente CounterApp Debe de incrementar con el boton +1 1`] = `
+<Fragment>
+  <h1>
+    CounterApp
+  </h1>
+  <h2
+    id="contador"
+  >
+    100
+  </h2>
+  <button
+    id="btnAdd"
+    onClick={[Function]}
+  >
+    +
+  </button>
+  <button
+    id="btnReset"
+    onClick={[Function]}
+  >
+    Reset
+  </button>
+  <button
+    id="btnRemove"
     onClick={[Function]}
   >
     -
@@ -39,16 +135,50 @@ exports[`Pruebas sobre el componente CounterApp Debe de mostrar el valor por def
     100
   </h2>
   <button
+    id="btnAdd"
     onClick={[Function]}
   >
     +
   </button>
   <button
+    id="btnReset"
     onClick={[Function]}
   >
     Reset
   </button>
   <button
+    id="btnRemove"
+    onClick={[Function]}
+  >
+    -
+  </button>
+</Fragment>
+`;
+
+exports[`Pruebas sobre el componente CounterApp Debe de restablecer el valor por defecto con el boton reset 1`] = `
+<Fragment>
+  <h1>
+    CounterApp
+  </h1>
+  <h2
+    id="contador"
+  >
+    100
+  </h2>
+  <button
+    id="btnAdd"
+    onClick={[Function]}
+  >
+    +
+  </button>
+  <button
+    id="btnReset"
+    onClick={[Function]}
+  >
+    Reset
+  </button>
+  <button
+    id="btnRemove"
     onClick={[Function]}
   >
     -

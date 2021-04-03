@@ -16,4 +16,44 @@ describe('Pruebas sobre el componente CounterApp',()=>{
         const textCounter = wrapper.find("#contador").text();
         expect(textCounter).toBe(textCounter);
     })
+
+    test('Debe de incrementar con el boton +1',()=>{
+        const contador = 100;
+        const wrapper = shallow(<CounterApp value={contador} />);
+        expect(wrapper).toMatchSnapshot();
+        const btnAdd = wrapper.find("#btnAdd").simulate('click');
+        const textCounter = wrapper.find("#contador").text().trim();
+        expect(textCounter).toBe((parseInt(contador)+1)+'');
+    })
+
+
+    test('Debe de disminuir con el boton -1',()=>{
+        const contador = 100;
+        const wrapper = shallow(<CounterApp value={contador} />);
+        expect(wrapper).toMatchSnapshot();
+        const btnRemove = wrapper.find("#btnRemove").simulate('click');
+        const textCounter = wrapper.find("#contador").text().trim();
+        // const btnReset = wrapper.find("#btnReset").text();
+        expect(textCounter).toBe((parseInt(contador)-1)+'');
+    })
+
+    test('Debe de disminuir con el boton -1',()=>{
+        const contador = 100;
+        const wrapper = shallow(<CounterApp value={contador} />);
+        expect(wrapper).toMatchSnapshot();
+        const btnRemove = wrapper.find("#btnRemove").simulate('click');
+        const textCounter = wrapper.find("#contador").text().trim();
+        // const btnReset = wrapper.find("#btnReset").text();
+        expect(textCounter).toBe((parseInt(contador)-1)+'');
+    })
+    test('Debe de restablecer el valor por defecto con el boton reset',()=>{
+        const contador = 100;
+        const wrapper = shallow(<CounterApp value={contador} />);
+        expect(wrapper).toMatchSnapshot();
+        const btnRemove = wrapper.find("#btnRemove").simulate('click');
+        const btnReset = wrapper.find("#btnReset").simulate('click');
+        const textCounter = wrapper.find("#contador").text().trim();
+        
+        expect(contador+'').toBe(textCounter+'');
+    })
 })

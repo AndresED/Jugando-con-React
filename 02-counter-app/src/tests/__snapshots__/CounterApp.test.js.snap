@@ -1,0 +1,57 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Pruebas sobre el componente CounterApp Debe de generar un snatshop y mostrar sus valores por defecto 1`] = `
+<Fragment>
+  <h1>
+    CounterApp
+  </h1>
+  <h2
+    id="contador"
+  >
+    0
+  </h2>
+  <button
+    onClick={[Function]}
+  >
+    +
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    Reset
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    -
+  </button>
+</Fragment>
+`;
+
+exports[`Pruebas sobre el componente CounterApp Debe de mostrar el valor por defecto de 100 1`] = `
+<Fragment>
+  <h1>
+    CounterApp
+  </h1>
+  <h2
+    id="contador"
+  >
+    100
+  </h2>
+  <button
+    onClick={[Function]}
+  >
+    +
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    Reset
+  </button>
+  <button
+    onClick={[Function]}
+  >
+    -
+  </button>
+</Fragment>
+`;

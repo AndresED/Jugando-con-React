@@ -4,7 +4,7 @@ import PropTypes from 'prop-types';
 const PrimeraApp = ({nombre,subtitulo})=>{
     return (
     <>
-        <h1> Hola mundo {nombre}</h1>
+        <h1> Hola, soy {nombre}</h1>
         <h2> ¿Como estas?</h2>
         <p>{subtitulo}</p>
     </>
